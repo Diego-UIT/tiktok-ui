@@ -17,7 +17,7 @@
   background-color: rgba(255, 255, 255, 1);
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .logo {
@@ -54,7 +54,7 @@
     padding: 0px;
     width: 252px;
     color: var(--black);
-    caret-color: var(--red);
+    caret-color: var(--primary);
     flex: 1;
     height: 100%;
   }
@@ -105,4 +105,7 @@
       background: rgba(22, 24, 35, 0.06);
     }
   }
+}
+
+.actions {
 }
